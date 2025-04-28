@@ -1,0 +1,111 @@
+.products {
+  font-family: "Helvetica";
+  background-color: black;
+  position: relative;
+  /*max-width: 30%;*/
+  /*max-height: 130%;*/
+  width: 510px;
+  height: 300px;
+  border: solid black 1px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  color: white;
+}
+
+.products-image {
+  position: absolute;
+  width: 40%;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-left: 280px;
+  top: 33px;
+}
+
+.items {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.buttons {
+  margin-left: 20px;
+  margin-top: 40px;
+  width: 20%;
+  /*margin: 5px;*/
+  height: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+  border: solid black 1px;
+  color: black;
+  background-color: white;
+}
+
+.buttons:hover {
+  opacity: 80%;
+}
+.text {
+  padding-left: 20px;
+}
+
+.priceRating {
+  position: relative;
+  top:30px;
+}
+
+.categories {
+  white-space: nowrap;
+  display:inline;
+  margin: 10px;
+}
+
+
+.labels {
+  padding-left: 10px;
+}
+
+
+.categories .category {
+  display: inline-block;
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+.extra-buttons-delete{
+  position: relative;
+  border: none;
+  background-color: black;
+  left: 219px;
+  top:-255px;
+}
+.extra-buttons-delete img{
+  width: 20px;
+}
+.extra-buttons-delete:hover{
+  opacity: 90%;
+}
+
+.extra-buttons-likes{
+  position: relative;
+  border: solid black 1px;
+  background-color: black;
+  border-radius: 10px;
+  top: -120px;
+  left: -300px;
+}
+.extra-buttons-likes img{
+  width: 50px;
+}
+.extra-buttons-likes:hover{
+  opacity: 90%;
+}
+
+#likes{
+  position: relative;
+  top: 90px;
+  left: -50px;
+}
+

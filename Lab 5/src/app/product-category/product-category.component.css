@@ -1,0 +1,25 @@
+.arrow_down {
+  position: relative;
+  top: 5px;
+  right: 5px;
+}
+
+.button_down {
+  position: absolute;
+  border: none;
+  top: 30px;
+  background-color: white;
+}
+
+.button_down img {
+  width: 30px;
+}
+
+.button_down:hover {
+  opacity: 60%;
+}
+
+#check {
+  position: relative;
+  /*width: 1000px;*/
+}
