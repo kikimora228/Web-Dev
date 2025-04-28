@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <style>
+        body{
+            background-color: rgb(239, 242, 245);
+        }
+        .authentication {
+            font-size: 24px;
+            font-family:helvetica;
+            padding: 15px;
+            position: absolute;
+            right: 240px;
+            top: 210px;
+            background-color: white;
+            width: 400px;
+            text-align: center;
+            border-radius:6px;
+        }
+        .authentication input {
+            font-size: 18px;
+            border-radius: 6px;
+            width: 94.5%;
+            border: none;
+            margin-bottom: 10px;
+        }
+        #login {
+            padding:10px;
+            font-size: 20px;
+            height:20px;
+            border: 1px solid rgb(160, 159, 159);
+            opacity:70%;
+        }
+        #password {
+            padding:10px;
+            font-size: 20px;
+            border: 1px solid rgb(160, 159, 159);
+            opacity:70%;
+        }
+
+        #enter, #create-acc {
+            font-weight:500;
+            padding:10px;
+            font-size: 24px;
+            border-radius: 6px;
+            color: white;
+            background-color: rgb(26, 119, 242);
+            width: 100%;
+            border: none; 
+            margin-bottom: 10px;
+        }
+        
+        #create-acc {
+            background-color: rgb(66, 183, 41);
+            width:auto;
+            position:relative;
+            margin-top: 15px;
+        }
+
+        #forget-password {
+            color:rgb(26, 119, 242);
+            font-family: helvetica;
+            font-size: 15px;
+            margin-bottom: 15px;
+            margin-top: 25px;
+            text-decoration: none;
+        }
+        #facebook_logo {
+            position: absolute;
+            top: 250px;
+            left: 250px;
+        }
+        #text {
+            font-size: 28px;
+            font-family: helvetica;
+            position: absolute;
+            top: 290px;
+            left: 250px;
+        }
+        #separator{
+            margin-top:15px;
+            color:rgba(164, 164, 164, 0.529);
+            border:solid 1px rgb(122, 122, 122);
+            opacity: 20%;
+        }
+        #text2{
+
+            font-size: 15px;
+            font-family:helvetica;
+            padding: 15px;
+            position: absolute;
+            right: 240px;
+            top: 520px;
+            width: 400px;
+            text-align: center;
+            border-radius:6px;
+            text-decoration:none;
+        }
+        #text2 a{
+            color:black;
+            text-decoration: none;
+            }
+        #text2:hover a {
+            text-decoration:underline;
+        }
+        #forget-password:hover{
+            text-decoration: underline;
+        }
+        #create-acc:hover{
+            opacity: 70%;
+        }
+        .downpage{
+            font-family:helvetica;
+            position: absolute;
+            top: 720px;
+            background-color: white;
+            text-align: center;
+            border: 1px;
+            width:1500px;
+            padding-left: 0; 
+        }
+        #line{
+            border:solid 1px rgb(122, 122, 122);
+            opacity: 30%; 
+            margin-top: 5px;
+            margin-bottom: 5px;   
+        }
+        #last{
+            text-align: left;
+            text-decoration: none;
+        }
+        .text3{
+            text-align: left;
+            width:900px;
+            font-size:12px;
+            opacity:40%;
+            margin:auto;
+            word-spacing: 6px;
+            word-break: 100px;
+            /* margin-bottom: 10px; */
+        }
+        /* .text3:hover{
+            text-decoration: underline;
+        } */
+        #plus{
+            margin-top: 20px;
+            font-weight: bolder;
+            font-size: 16px;
+            border:1px solid black;
+            background-color: white;
+            border-radius: 1px;
+            width:40px;
+        }
+        #plus:hover{
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1></h1>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Facebook_Logo_%282019%29.svg" 
+    width="250px" id="facebook_logo">
+
+    <p id="text">
+        Facebook помогает вам всегда <br>оставаться на связи и общаться со <br>своими знакомыми.
+    </p>
+
+    <div class="authentication">
+        <input id="login" type="login" placeholder="Электронный адрес или номер телефона" ><br>
+        <input id="password" type="password" placeholder="Пароль" ><br>
+        <input class="authentication-buttons" id="enter"type="button" value="Вход">
+        <a id="forget-password" href="https://web.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">Забыли пароль?</a> <br>
+        <hr id="separator">
+        <input class="authentication-buttons" id="create-acc" type="button" value="Создать новый аккаунт">
+    </div>
+    <p id="text2"><strong><a href="https://www.facebook.com/pages/create/?ref_type=registration_form">Создать страницу</a></strong> заменитости, музыкальной группы <br>или компании.</p>
+    <!-- <img id="downpage"src="assets/image.png"> -->
+    <div class="downpage" >
+        <p id="rueng" class="text3">Русский
+            English (UK)
+            Türkçe
+            Bahasa Indonesia
+            中文(简体)
+            Қазақша
+            Deutsch
+            한국어
+            Shqip
+            Español
+            Português (Brasil) 
+            <input id="plus" type="button" value="+"> 
+            <br>
+        </p>
+        <hr class="text3" id="line">
+        <p class="text3">
+            Регистрация Вход Messenger Facebook Lite Видео Места Игры Marketplace Meta Pay Meta Store Meta Quest Imagine with Meta AI <br>Instagram Threads Благотворительные акции Услуги Центр информации о выборах Политика конфиденциальности Центр конфиденциальности<br> Группы Информация Создать рекламу Создать Страницу Разработчикам Вакансии Файлы cookie Рекламные предпочтения<br> Условия использования Справка Загрузка контактов и лица, не являющиеся пользователями Настройки Журнал действий
+            <br>
+            <br>
+            <div class="text3" id="last">Meta © 2024</div></p>
+    </div>
+</body>
+
+</html>
